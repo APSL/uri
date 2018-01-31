@@ -106,6 +106,8 @@ setup(
 						'irc = uri.scheme:URLScheme',
 						'ldap = uri.scheme:URLScheme',
 						'telnet = uri.scheme:URLScheme',
+                                                'mysql = uri.scheme:URLScheme',
+                                                'redis = uri.scheme:URLScheme',
 					],
 			},
 )
